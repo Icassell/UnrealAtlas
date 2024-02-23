@@ -1,5 +1,4 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
-//уе╨ё╬Э 710605420@qq.com
 
 #pragma once
 

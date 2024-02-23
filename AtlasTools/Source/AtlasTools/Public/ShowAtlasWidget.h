@@ -1,5 +1,4 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-//ÕÅº£¾ü 710605420@qq.com
 
 #pragma once
 

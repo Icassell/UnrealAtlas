@@ -1,5 +1,5 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
-//张海军 710605420@qq.com
+
 #pragma once
 
 #include "CoreMinimal.h"

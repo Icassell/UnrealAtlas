@@ -1,5 +1,4 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-//张海军 710605420@qq.com
 
 #pragma once
 
@@ -48,9 +47,9 @@ public:
 	static void SetImageToAtlasAllInFolder(bool bRecreateAtlas = true,bool bClearSprite = true);
 
 	UFUNCTION(BlueprintCallable, Category = "AtlasToolsLibrary", meta = (WorldContext = "WorldContextObject"))
-	static int32 GenareteAtlasAllInFolder(FString Path,bool bRecreateAtlas = true,bool bClearSprite = true);
+	static int32 GenerateAtlasAllInFolder(FString Path,bool bRecreateAtlas = true,bool bClearSprite = true);
 	UFUNCTION(BlueprintCallable, Category = "AtlasToolsLibrary", meta = (WorldContext = "WorldContextObject"))
-	static int32 GenareteAtlasAllInFolders(TArray<FString> FolderPaths,bool bRecreateAtlas = true,bool bClearSprite = true);
+	static int32 GenerateAtlasAllInFolders(TArray<FString> FolderPaths,bool bRecreateAtlas = true,bool bClearSprite = true);
 
 	static int32 CreateSpritesFromTextures(TArray<UTexture2D*>& Textures,class UPaperSpriteAtlas* PaperSpriteAtlas = nullptr);
 
